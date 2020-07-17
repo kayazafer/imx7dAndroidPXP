@@ -13,7 +13,7 @@ LOAD_KERNEL_ENTRY := 0x80008000
 TARGET_KERNEL_DEFCONF := imx_v7_android_defconfig
 -include external/fsl_imx_omx/codec_env.mk
 TARGET_GRALLOC_VERSION := v3
-TARGET_HIGH_PERFORMANCE := true
+TARGET_HIGH_PERFORMANCE := true  #attention you may want to set this to "false" in your particular build. 
 TARGET_USES_HWC2 := true
 TARGET_HWCOMPOSER_VERSION := v2.0
 TARGET_FSL_IMX_2D := PXP2D
